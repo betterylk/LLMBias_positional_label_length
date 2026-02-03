@@ -6,7 +6,7 @@ runCX_Y.py
 
 where X is 1–6 representing the 6 categories, and Y can be PB (positional bias) or LaB (label bias).
 
-Benchmarks categorised by input–output structure:
+# ====================== Benchmarks categorised by input–output structure:
 
 Category Input structure => Output type
 
@@ -22,7 +22,7 @@ C5 Question + Options => Multiple-answer
 
 C6 Question + Options + Passage => Multiple-answer
 
-Benchmarks used in this study:
+# ====================== Benchmarks used in this study:
 
 C1 ai2_arc
 https://huggingface.co/datasets/allenai/ai2_arc
@@ -41,9 +41,3 @@ https://huggingface.co/datasets/Obsismc/mmlu-multi_answers
 
 C6 sata-bench
 https://huggingface.co/datasets/sata-bench/sata-bench
-
-Script for length bias:
-
-run_length_bias.py
-
-The length bias script perturbs the relative lengths of answer options while keeping their semantic content unchanged, and evaluates whether model predictions correlate with option length. Length bias is benchmark-agnostic and can be applied across all applicable datasets.
