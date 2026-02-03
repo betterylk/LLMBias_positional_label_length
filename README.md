@@ -1,4 +1,4 @@
-Python scripts to generate LLM outputs under positional, label, and length bias are provided.
+Python scripts to generate LLM outputs under positional and label bias. The length bias is evaluated based on results from the positional and label bias, so no additional scripts to generate LLM outputs.
 
 Scripts for positional and label bias follow the format:
 
