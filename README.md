@@ -9,11 +9,17 @@ where X is 1–6 representing the 6 categories, and Y can be PB (positional bias
 Benchmarks categorised by input–output structure:
 
 Category Input structure => Output type
+
 C1 Question + Options => Single-answer
+
 C2 Question + Options + Topic => Single-answer
+
 C3 Question + Options + Passage => Single-answer
+
 C4 Question + Options + Facts => Single-answer
+
 C5 Question + Options => Multiple-answer
+
 C6 Question + Options + Passage => Multiple-answer
 
 Benchmarks used in this study:
