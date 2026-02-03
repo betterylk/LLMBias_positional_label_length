@@ -6,7 +6,7 @@ runCX_Y.py
 
 where X is 1–6 representing the 6 categories, and Y can be PB (positional bias) or LaB (label bias).
 
-# ====================== Benchmarks categorised by input–output structure:
+# ==== Benchmarks categorised by input–output structure:
 
 Category Input structure => Output type
 
@@ -22,7 +22,7 @@ C5 Question + Options => Multiple-answer
 
 C6 Question + Options + Passage => Multiple-answer
 
-# ====================== Benchmarks used in this study:
+# ==== Benchmarks used in this study:
 
 C1 ai2_arc
 https://huggingface.co/datasets/allenai/ai2_arc
